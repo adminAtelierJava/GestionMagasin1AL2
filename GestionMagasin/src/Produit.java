@@ -45,7 +45,7 @@ public class Produit {
         System.out.println("L'indentifiant :"+identifiant+" marque :"+
                 marque+" libelle :"+libelle+" prix :"+prix);
     }
-    
+
     public String toString()
     {
 

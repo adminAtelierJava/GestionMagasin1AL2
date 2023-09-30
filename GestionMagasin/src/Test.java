@@ -49,11 +49,18 @@ public class Test {
         Date d1=new Date();
         p2.dateexp=d1;
         System.out.println("to String");
-        System.out.println(p2.tostring());
+        System.out.println(p2.toString());
         System.out.println(p2);
          p2.afficher();
         Produit p5=new Produit(12,"delic",d1);
         System.out.println(p5);
+
+        Magasin m1=new Magasin();
+        Magasin m2=new Magasin(1,"tunis");
+        m1.ajouter(p1);
+        m1.ajouter(p2);
+        System.out.println("Magasin");
+        m1.afficher();
     }
 
 }
